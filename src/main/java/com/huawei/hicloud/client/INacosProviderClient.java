@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import java.util.Map;
 
 @FeignClient(name = "nacos-provider")
-@RequestMapping(value = "/v1")
+@RequestMapping(value = "/v1.0")
 public interface INacosProviderClient {
 
     @RequestMapping(value = "/info", method = RequestMethod.GET)

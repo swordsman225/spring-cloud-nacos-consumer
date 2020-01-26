@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Map;
 
 @RestController
-@RequestMapping(value = "/v1/info")
+@RequestMapping(value = "/v1.0/info")
 public class InfoController {
 
     private static final Logger logger = LoggerFactory.getLogger(InfoController.class);
