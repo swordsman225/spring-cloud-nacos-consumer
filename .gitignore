@@ -1,2 +1,9 @@
-/target/
+/target
+
+/logs
+*.log
+
+.settings
+.project
+
 *.iml

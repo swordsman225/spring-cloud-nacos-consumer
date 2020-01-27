@@ -1,6 +1,6 @@
 package com.huawei.hicloud.controller;
 
-import com.huawei.hicloud.client.INacosProviderClient;
+import com.huawei.hicloud.rpc.feign.client.INacosProviderClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
